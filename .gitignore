@@ -1,0 +1,57 @@
+# ---- OS junk ----
+.DS_Store
+Thumbs.db
+desktop.ini
+$RECYCLE.BIN/
+ehthumbs.db
+
+# ---- Editors / IDEs ----
+.vscode/
+.idea/
+*.swp
+*.swo
+*.suo
+*.user
+*~
+
+# ---- Node (from npx http-server used for local HTML preview) ----
+node_modules/
+npm-debug.log*
+.pnpm-debug.log*
+.yarn/
+
+# ---- Local dev noise ----
+*.log
+.env
+.env.local
+
+# ---- Framework build outputs (once the app scaffolds inside "the app itself…") ----
+# Flutter / Dart
+**/.dart_tool/
+**/.flutter-plugins
+**/.flutter-plugins-dependencies
+**/.packages
+**/build/
+**/*.iml
+# Android
+**/android/.gradle/
+**/android/local.properties
+**/android/**/GeneratedPluginRegistrant.java
+**/android/key.properties
+**/*.jks
+**/*.keystore
+# iOS / macOS
+**/ios/Pods/
+**/ios/.symlinks/
+**/ios/Flutter/Flutter.framework
+**/ios/Flutter/Flutter.podspec
+**/macos/Pods/
+# Web / JS-based frameworks
+**/dist/
+**/.next/
+**/.nuxt/
+**/.svelte-kit/
+**/coverage/
+
+# NOTE: the .claude/project/data/*.js and .claude/creative/data/*.js files
+# are NOT ignored — they ARE the project state and belong in git.
